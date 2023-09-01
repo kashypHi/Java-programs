@@ -1,0 +1,12 @@
+public class Factorial
+{4
+public static void main(String[]ar)
+{
+int  fact=1;
+int n=5;
+for(i<1;i<n;i++){
+fact=fact*i;
+}
+System.out.println("factorial of "+fact);
+}
+}
