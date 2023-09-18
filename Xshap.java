@@ -1,21 +1,29 @@
 public class Xshap {
 public static void main(String ar[]) {
-int n=5;int s=0;int star=2*n;
-for(int i=1;i<=2*n;i++)
+int n=5;int sp=1;int space=(2*n)-2;
+for(int i=1;i<2*n;i++)
 {
-for(int j=1;j<=s;j++)
-  System.out.print("");
+    for(int j=1;j<sp;j++){
+    System.out.print("* ");
+    }
 
-for(int k=1;k<=star;k++)
-  System.out.print("*");
+    for(int k=space;k>1;k--){
+     System.out.print(" ");
+    }
 
-if(i>5){
-s++;star-=2;
+    for(int l = 1 ; l <=sp; l++)  {
+      if(l!=n)
+      System.out.print("*");
+    }
+         System.out.println();
+  
+if(i<n){
+sp++;
+space-=2;
+}else{
+sp--;
+space+=2;
 }
-else{
-s--;star+=2;
-}
-System.out.println();
 }
 }
-     }
+}
