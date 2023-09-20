@@ -1,9 +1,9 @@
 package TwoDarray;
 import java.util.Scanner;
 
-// Q10. WAP to check if two array are identical or not.
+// Q9. WAP to check for identity matrix.
 
-public class two_D_elemnt_10 {
+public class two_D_elemnt_11 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
