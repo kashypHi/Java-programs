@@ -1,5 +1,5 @@
 package TwoDarray;
-
+//Q14.create 2d aarray and find sum of all the elements in a column 
 public class SumofCols {
     
     public static void main(String[] args) {
@@ -23,6 +23,8 @@ System.out.println("------------");
 
             }
             System.out.print(sum+" ");
+
+            //system.out.println(sum); in user input
         }
     }
     

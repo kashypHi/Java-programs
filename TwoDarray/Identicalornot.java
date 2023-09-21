@@ -1,5 +1,5 @@
 package TwoDarray;
-
+//Q10 WAP to check if two arrays are identical or not by value
 public class Identicalornot {
     public static void main(String[] args) {
         int ai[][]={{1,0,0},{0,1,0},{0,0,1}};

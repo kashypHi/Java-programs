@@ -1,4 +1,5 @@
 package TwoDarray;
+//Q15 WAP to print transpose matrix
 import java.util.Scanner;
 public class TransposMat {
     public static void main(String[] args) {

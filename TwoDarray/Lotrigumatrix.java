@@ -1,5 +1,5 @@
 package TwoDarray;
-//Q12 print lower trugular matrix
+//Q12 print lower trugular matrix and upper triangular matrix
 import java.util.Scanner;
 public class Lotrigumatrix {
     public static void main(String[] args) {
